@@ -64,7 +64,7 @@ optional arguments:
     path/to/img2.jpg 120,300,250,600,2
     ...
     ```
-    There is a written program automatically generated here.
+    There is a written program automatically generated here;
     python my_voc_annotation.py  
 
 4. Refer to voc classes to modify your own classes.
