@@ -50,11 +50,9 @@ optional arguments:
 4. MultiGPU usage: use `--gpu_num N` to use N GPUs. It is passed to the [Keras multi_gpu_model()](https://keras.io/utils/#multi_gpu_model).
 
 ## Training for your data
-1. Use labelImg tools[labelImg](https://github.com/tzutalin/labelImg) to label image and generate your own annotation file.
+1. Use labelImg tools [labelImg](https://github.com/tzutalin/labelImg) to label image and generate your own annotation file.
 
-2. Convert annotation file to text file, format is as follows:
-
-3. Generate your own annotation file and class names file.  
+2. Convert annotation file to text file, format is as follows:  
     One row for one image;  
     Row format: `image_file_path box1 box2 ... boxN`;  
     Box format: `x_min,y_min,x_max,y_max,class_id` (no space).  
@@ -64,30 +62,32 @@ optional arguments:
     path/to/img2.jpg 120,300,250,600,2
     ...
     ```
-    There is a written program automatically generated here;
+    There is a written program automatically generated here.  
     python my_voc_annotation.py  
 
-4. Refer to voc classes to modify your own classes.
-    Here is an example in my_voc_classes.txt:
-        kangaroo
-        raccoon
+3. Refer to voc classes to modify your own classes.  
+    Here is an example in my_voc_classes.txt:  
+        kangaroo  
+        raccoon  
 
-5. Modify train.py and start training.  
+4. Modify train.py and start training.  
     `python my_train.py`  
-    Use your trained weights or checkpoint weights with command line option `--model model_file` when using yolo_video.py
-    Remember to modify class path or anchor path, with `--classes class_file` and `--anchors anchor_file`.
+    Use your trained weights or checkpoint weights with command line option `--model model_file` when using yolo_video.py  
+    Remember to modify class path or anchor path, with `--classes class_file` and `--anchors anchor_file`.  
 
 ---
 ## Testing
-    python yolo_image.py  for image detection mode.
-    python yolo_video.py [video_path] [output_path (optional)].
+    python yolo_image.py  for image detection mode.  
+    python yolo_video.py [video_path] [output_path (optional)].  
 
 ---
 
 ## Result
-![result](test_images/result_test01.jpg).
+![result](test_images/result_test00.jpg).  
 
-![result](test_images/result_test04.jpg).
+![result](test_images/result_test02.jpg).  
+
+![result](test_images/result_test04.jpg).  
 
 ## Some issues to know
 
