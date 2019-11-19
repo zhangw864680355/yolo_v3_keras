@@ -1,0 +1,26 @@
+<annotation>
+	<folder>raccoon</folder>
+	<filename>raccoon-206.jpg</filename>
+	<path>D:\数据集资料\VOC\kangaroo-raccoon\raccoon\raccoon-206.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>1024</width>
+		<height>741</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>raccoon</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>28</xmin>
+			<ymin>84</ymin>
+			<xmax>1021</xmax>
+			<ymax>691</ymax>
+		</bndbox>
+	</object>
+</annotation>

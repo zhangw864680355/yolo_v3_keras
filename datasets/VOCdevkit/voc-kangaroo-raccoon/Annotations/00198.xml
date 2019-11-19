@@ -1,0 +1,26 @@
+<annotation>
+	<folder>kangaroo</folder>
+	<filename>00198.jpg</filename>
+	<path>D:\数据集资料\VOC\kangaroo-raccoon\kangaroo\00198.jpg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>667</width>
+		<height>1000</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>kangaroo</name>
+		<pose>Unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>109</xmin>
+			<ymin>63</ymin>
+			<xmax>544</xmax>
+			<ymax>980</ymax>
+		</bndbox>
+	</object>
+</annotation>
